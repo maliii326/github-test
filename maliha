@@ -1,0 +1,11 @@
+list=[]
+for i in range(0,20):
+    list.append(input('enter value'))
+print(list)
+key=input('enter key')
+count = 0
+for i in range(len(list)):
+    if (int(key)==list[i]):
+        count=count+1
+        print(count)
+
