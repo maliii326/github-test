@@ -1,0 +1,6 @@
+items = ("w", 3, "r", "e", "s", "o", "u", "r", "c")
+result = tuple.count == len(items)
+if (result):
+   print("All the items are same")
+else:
+    print("all the items are not same")
