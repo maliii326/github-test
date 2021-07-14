@@ -1,0 +1,18 @@
+def my_function(n1,n2,n3):
+    if n1>n2:
+        if n1>n3:
+            print("n1 is greater ")
+        else:
+            print("n3 is greater")
+    elif  n2>n3:
+        print("n2 is greater ")
+    else:
+        print("n3 is greater ")
+
+def main():
+    n1 = int(input("enter n1 no"))
+    n2 = int(input("enter n2 no"))
+    n3 = int(input("enter n3 no"))
+    my_function(n1,n2,n3)
+if __name__=="__main__":
+    main()
