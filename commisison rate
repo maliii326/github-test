@@ -1,0 +1,9 @@
+def saleC(A,R):
+    comm=((A*R))
+    print('sale amount=',A,'and rates=',R,'comission=',comm)
+def main():
+    A=int(input('amount'))
+    R=float(input('RATE'))
+    saleC(A,R)
+if __name__=='__main__':
+        main()
