@@ -1,0 +1,7 @@
+def my_function(i):
+     c= 5/9*(i-32)
+     print("for celcius",i,"farhenheit is",c)
+def main():
+    my_function(45)
+if __name__ == "__main__":
+        main()
