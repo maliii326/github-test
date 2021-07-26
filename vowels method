@@ -1,0 +1,14 @@
+strg = 'bcdefghaio'
+count = 0
+for i in strg :
+    if i=='a' or i=='e' or i == 'o' or i =='i' or i =='u':
+        count=count+1
+print(count)
+index = len(strg)
+print(index)
+while index>0:
+    print(strg[index-1])
+    index = index-1
+    print('#################################')
+#for reversing method 2
+print(strg[::-1])
